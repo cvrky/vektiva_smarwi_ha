@@ -1,0 +1,14 @@
+{
+  "domain": "vektiva_smarwi",
+  "name": "Vektiva Smarwi",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/vektiva_smarwi",
+  "requirements": ["aiohttp"],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@cvrky"
+  ]
+}

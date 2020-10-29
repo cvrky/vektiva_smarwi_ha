@@ -1,0 +1,20 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Zařízení je již nastaveno"
+        },
+        "error": {
+            "cannot_connect": "Nemohu se připojit",
+            "invalid_auth": "Ověření se nepodařilo",
+            "unknown": "Neočekávaná chyba"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "hosts": "Hosti nebo IP, oddělené čárkou"
+                }
+            }
+        }
+    },
+    "title": "Vektiva Smarwi"
+}
