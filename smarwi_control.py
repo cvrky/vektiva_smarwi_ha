@@ -13,7 +13,7 @@ class SmarwiControl:
         try:
             for host in self.hosts:
                 ctl = SmarwiControlItem(host)
-                await ctl.is_open()
+                await ctl.get_status()
             result = True
         except:
             result = False
