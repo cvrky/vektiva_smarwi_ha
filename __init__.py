@@ -12,7 +12,7 @@ from .const import DOMAIN
 CONFIG_SCHEMA = voluptuous.Schema({DOMAIN: voluptuous.Schema({})}, extra=voluptuous.ALLOW_EXTRA)
 
 # For your initial PR, limit it to 1 platform.
-PLATFORMS = ["switch"]
+PLATFORMS = ["cover"]
 
 
 async def async_setup(hass: HomeAssistant, config: dict):

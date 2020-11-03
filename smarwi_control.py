@@ -42,6 +42,9 @@ class SmarwiControlItem:
     async def open(self):
         await self.__request("cmd/open/100")
 
+    async def set_position(self, pos:int):
+        await self.__request("cmd/open/{}".format(pos))
+
     async def close(self):
         await self.__request("cmd/close")
 
