@@ -1,4 +1,4 @@
-"""Platform for light integration."""
+"""Platform for cover integration."""
 import logging
 import time
 
