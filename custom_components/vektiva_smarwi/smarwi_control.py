@@ -43,7 +43,11 @@ class SmarwiControlItem:
         await self.__request("cmd/open/100")
 
     async def set_position(self, pos:int):
-        await self.__request("cmd/open/{}".format(pos))
+        # if pos too small, close instead
+        if pos > 1:
+            await self.__request("cmd/open/{}".format(pos))
+        else:
+            await self.close()
 
     async def close(self):
         await self.__request("cmd/close")
